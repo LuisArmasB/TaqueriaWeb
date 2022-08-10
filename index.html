@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--METADATA-->    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Taqueria el chemao">
+    <meta property="og:description" content="Taqueria con sucursales en Michoacan y Queretaro.">
+    <meta property="og:image" content="/img/loguito.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@discord">
+
+
+
+    <title>Taqueria el Chemao</title>
+
+
+<!--IMPORTACIONES-->    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!--Import of stylesheets-->
+    <!--CSS-->
+    <link href="/css/mainpage.css" rel="stylesheet" />
+
+    <!--SWIPER CSS-->
+    <link href="/css/swiper-bundle.min.css" rel="stylesheet" />
+    <!--Box Icons Page: FONT -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet' />
+
+    <title>Taqueria el Chemao</title> 
+
+</head>
+
+<body>
+
+    <!--HEADER D ELA PAGINA DONDE VA A IR LA NAV BAR-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                
+               <img src="/img/loguito.png" alt="" class="home__logo">Inicio  
+               <!-- Inicio <i class='bx bx-home-smile'></i>-->
+
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#menu" class="nav__link " >
+                            <i class='bx bxs-food-menu'></i>
+                            <span>Menu</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link ">
+                            <i class='bx bxs-direction-left'></i>
+                            <span>Como llegar</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#horarios" class="nav__link ">
+                            <i class='bx bxs-time'></i>
+                            <span>Horarios</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#resena" class="nav__link ">
+                            <i class='bx bxs-star'></i>
+                            <span>Reseñas</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contrataciones" class="nav__link ">
+                            <i class='bx bxs-detail'></i>
+                            <span>Contrataciones</span>
+                        </a>
+                    </li>           
+                             
+                </ul>
+
+            </div>
+
+            <a href="tel:524422120606" class="buttonSub nav__button container">
+                Llamanos!
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+
+<!--CLASE MAIN DONDE VA TITULO EMPRESA DESC, CAMPO BUSQUEDA Y BOTON  BUSQUEDA-->
+    <main class="main">
+        <!--HOME-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <div class="redes">
+                    <ol>
+
+                    
+                        <li>
+                            <a href="https://www.facebook.com/chemao.upn" class="footer__link" target="_blank">
+                                <i class='bx bxl-facebook-square'></i>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/taqueriachemao/" class="footer__link" target="_blank">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                        </li>
+                    </ol>      
+                    </div>
+                    <h1 class="home__title">
+                        Taqueria <br> El Chemao
+                    </h1>
+                    <!--<span><img src="/img/logoCompleto.png" alt="Logotipo" class="home__logo"></span> -->
+                    <p class="home__description">
+                        Expertos en restaurante y taqueria, nuestra calidad y experiencia nos han llevado a
+                        posicionarnos como lideres desde 1988, con presencia en el estado de michoacan(Uruapan-Morelia) y 
+                        en el estado de Queretaro. Que esperas ven y prueba nuestros delicosos platillos!.
+                    </p>
+                    <form action="" class="home__search">
+                        <i class='bx bxs-map'></i>
+                        <input type="search" placeholder="Busca la sucursal mas cercana" class="home__search-input" />
+                        <button class="button">Buscar</button>
+                    </form>
+
+
+
+                    <!---->
+                    <!-- <div class="home__images">-->
+                    <!-- <div class="home__orbe">-->
+
+                    <!-- </div>-->
+                    <!--<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1yrkSPEE3rCC5YJqZynnaPmwpgv5Uxac&ehbc=2E312F" width="640" height="480"></iframe>-->
+                    <!--  <div class="home__img">-->
+                    <!-- <img src="/img/trompo.jpg" alt=""/> -->
+                    <!--   </div>-->
+                    <!--  </div> -->
+
+<!--MAPA RESPONSIVE DE LAS LOCACIONES DE LA EMPRESA-->
+                    <div class="map-responsive">
+                        <iframe
+                            src="https://www.google.com/maps/d/u/0/embed?mid=1yrkSPEE3rCC5YJqZynnaPmwpgv5Uxac&ehbc=2E312F"
+                            width="640" height="480" allowfullscreen style="border: 0;">
+                        </iframe>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--SECCION DEL MENU DE LA EMPRESA-->        
+        <section class="menu section" id="menu">
+            <div class="container">
+                <span class="section__subtitle">Los mas elegidos</span>
+                <h1 class="section__title">
+                    Nuestro Menu:
+                </h1>
+                <!--Aqui aplicaremos el swiper-->
+                <div class="menu__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="menu__card swiper-slide">
+                            <span class="menu__title">Tacos</span>
+                            <div class="menu__description">
+                                Prueba nuestros deliciosos tacos al pastor, suadero, bisteck, chorizo o tripa.
+                            </div>
+                            <img src="/img/menu/tacote.jpg" alt="Imagen de taco al pastor" class="menu__img">
+                        </article>
+                        <article class="menu__card swiper-slide">
+                            <span class="menu__title">Alambres</span>
+                            <div class="menu__description">
+                                Alambres para 2 o mas personas preparados con la carne a tu eleccion y queso monterey.
+                            </div>
+                            <img src="/img/menu/alambres.png" alt="Imagen alambre al pastor" class="menu__img">
+                        </article>
+                        <article class="menu__card swiper-slide">
+                        <span class="menu__title">Burritos</span>
+                        <div class="menu__description">
+                            Deliciosos burritos acompañados de guacamole.
+                        </div>
+                            <img src="/img/menu/burrito.jpg" alt="Imagen de un buen burrito" class="menu__img">
+                        </article>
+                        <article class="menu__card swiper-slide">
+                        <span class="menu__title">Tortas</span>
+                        <div class="menu__description">
+                            Tortas para aquellos con estomagos mas retadores.
+                        </div>
+                            <img src="/img/menu/torta.jpg" alt="Imagen de un buen burrito" class="menu__img">
+                        </article>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+
+<!--SECCION DE LAS RESEÑAS DE LOS CLIENTES-->
+        <section class="menu section" id="resena">
+            <div class="container">
+                <h1 class="section__title">Reseñas</h1>
+                <span class="resena__desc">Reseñas recientes de nuestros clientes.</span>
+                <div class="menu__container swiper swiperres">
+                    <div class="swiper-wrapper">
+                        <article class="menu__Card swiper-slide">
+                            <img src="/img/reviews/review1.png" alt="" class="menu__img2">
+                        </article>
+                        <article class="menu__Card swiper-slide">
+                            <img src="/img/reviews/review2.png" alt="" class="menu__img2">
+                        </article>
+                        <article class="menu__Card swiper-slide">
+                            <img src="/img/reviews/review3.png" alt="" class="menu__img2">
+                        </article>
+                        <article class="menu__Card swiper-slide">
+                            <img src="/img/reviews/review4.png" alt="" class="menu__img2">
+                        </article>                     
+                        <article class="menu__Card swiper-slide">
+                            <img src="/img/reviews/review5.png" alt="" class="menu__img2">
+                        </article>                           
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+        </section>
+<!--SECCION DE LOS HORARIOS DE TRABAJO-->
+        <section class="menu section" id="horarios">
+            <div class="container">
+                
+                <h1 class="section__title">Horarios: <span style="color: white; font-size: 16px; font-weight: 400;">Lunes a Viernes con excepción de dias feriados.</span></h1>
+                <article>
+                    <table class="tableformat">
+                        <tr>
+                            <td colspan="3">Horarios de atención</td>
+                        </tr>
+
+                        <tr >
+                            <td>Dia</td>
+                            <td>Hora Apertura</td>
+                            <td>Hora Cierre</td>
+                        </tr>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>8:00AM</td>
+                            <td>9:00PM</td>
+                        </tr>
+                        <tr>
+                            <td>Martes</td>
+                            <td>8:00AM</td>
+                            <td>11:00PM</td>
+                        </tr>
+                        <tr>
+                            <td>Miercoles</td>
+                            <td>8:00AM</td>
+                            <td>9:00PM</td>
+                        </tr>
+                        <tr>
+                            <td>Jueves</td>
+                            <td>8:00AM</td>
+                            <td>10:00PM</td>
+                        </tr>     
+                        <tr>
+                            <td>Viernes</td>
+                            <td>8:00AM</td>
+                            <td>11:00PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sabado</td>
+                            <td>8:00AM</td>
+                            <td>2:00PM</td>
+                        </tr>                                                                      
+                    </table>
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <footer class="footer__space section">
+<!--
+                        <li>
+                            <a href="https://www.facebook.com/chemao.upn" class="footer__link">
+                                <i class='bx bxl-facebook-square'></i>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/taqueriachemao/" class="footer__link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                        </li>                                             
+-->
+
+        <div class="footer__info container">
+            <span class="footer_copy">
+                    &#169; Mitol. All rights reserved 2022
+            </span>
+        </div>
+
+
+
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bxs-chevrons-up'></i>
+    </a>
+
+
+    <script src="/js/swiper-bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
